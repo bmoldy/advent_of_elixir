@@ -5,7 +5,7 @@ defmodule Day2_2015 do
   end
 
   defp smallestside([a, b, c]) do
-    [a * b, a * b, b * c] |> Enum.min()
+    [a * b, a * c, b * c] |> Enum.min()
   end
 
   def solve1() do
@@ -19,5 +19,23 @@ defmodule Day2_2015 do
       |> Enum.sum()
 
     IO.inspect(package_dimensions)
+  end
+
+  defp minperimeter([a, b, c]) do
+    Enum.min([2 * (a + b), 2 * (a + c), 2 * (b + c)])
+  end
+
+  defp volume([a, b, c]) do
+    a * b * c
+  end
+
+  def solve2() do
+    @input
+    |> String.split("\n")
+    |> Enum.map(fn a -> String.split(a, "x") end)
+    |> List.delete_at(-1)
+    |> Enum.map(fn list -> Enum.map(list, fn a -> String.to_integer(a) end) end)
+    |> Enum.map(fn list -> minperimeter(list) + volume(list) end)
+    |> Enum.sum()
   end
 end
