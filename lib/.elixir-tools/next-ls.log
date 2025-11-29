@@ -1,0 +1,133 @@
+
+17:58:14.049 [info] Loading 148 CA(s) from :otp store
+
+17:58:15.583 id=1 [debug] handled request client -> server initialize in 832ms
+
+17:58:15.669 [debug] sent notification server -> client window/logMessage
+
+17:58:15.674 [debug] handled notification client -> server textDocument/didOpen in 63ms
+
+17:58:15.761 [debug] NextLS v0.23.4 has initialized!
+
+17:58:15.762 [debug] sent notification server -> client window/logMessage
+
+17:58:15.764 [debug] Log file located at /home/bmoldy/Work/ProgrammingPractice/advent/lib/.elixir-tools/next-ls.log
+
+17:58:15.824 [debug] sent notification server -> client window/logMessage
+
+17:58:15.828 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+19:56:45.980 [info] Loading 148 CA(s) from :otp store
+
+19:56:47.800 id=1 [debug] handled request client -> server initialize in 1146ms
+
+19:56:47.914 [debug] handled notification client -> server textDocument/didOpen in 34ms
+
+19:56:47.929 [debug] sent notification server -> client window/logMessage
+
+19:56:48.046 [debug] NextLS v0.23.4 has initialized!
+
+19:56:48.046 [debug] sent notification server -> client window/logMessage
+
+19:56:48.046 [debug] Log file located at /home/bmoldy/Work/ProgrammingPractice/advent/lib/.elixir-tools/next-ls.log
+
+19:56:48.047 [debug] sent notification server -> client window/logMessage
+
+19:56:48.047 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+19:56:50.081 [debug] handled notification client -> server textDocument/didChange in 55ms
+
+19:56:51.678 [debug] handled notification client -> server textDocument/didChange in 547µs
+
+19:56:53.993 [debug] handled notification client -> server textDocument/didChange in 3ms
+
+19:56:59.720 [debug] sent notification server -> client window/logMessage
+
+19:56:59.720 [debug] Booting runtimes...
+
+19:56:59.779 id=866 [debug] sent request server -> client window/workDoneProgress/create
+
+19:57:00.103 [debug] sent notification server -> client $/progress
+
+19:57:00.198 [debug] handled notification client -> server textDocument/didSave in 97ms
+
+19:57:00.204 [debug] sent notification server -> client window/logMessage
+
+19:57:00.204 [info] Beginning DB migration...
+
+19:57:00.263 [debug] sent notification server -> client window/logMessage
+
+19:57:00.263 [info] Database is on the latest version: 7
+
+19:57:00.264 [debug] sent notification server -> client window/logMessage
+
+19:57:00.264 [info] Finished DB migration...
+
+19:57:00.265 [debug] sent notification server -> client window/logMessage
+
+19:57:00.265 [info] Booting runtime for advent.
+
+- elixir: /home/bmoldy/.local/share/mise/installs/elixir/1.19.2-otp-28/bin/elixir
+- zombie wrapper script: /home/bmoldy/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/bmoldy/Work/ProgrammingPractice/advent
+- command: /home/bmoldy/.local/share/mise/installs/elixir/1.19.2-otp-28/bin/elixir --no-halt --sname nextls-runtime-1764381420264091350 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3Im5leHQtbHMtMTc2NDM4MTQwNjE2NTQzMzcyMkBibW9sZHkAAADqAAAAAGkqUt8=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/home/bmoldy/.local/share/mise/installs/elixir/1.19.2-otp-28/bin:/home/bmoldy/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/bmoldy/.local/share/nvim/mason/bin:/home/bmoldy/Work/ProgrammingPractice/advent/lib/bin:/home/bmoldy/.local/share/mise/installs/elixir/1.19.2-otp-28/bin:/home/bmoldy/.local/share/mise/installs/elixir/1.19.2-otp-28/.mix/escripts:/home/bmoldy/.local/share/mise/installs/erlang/28.1.1/bin:/home/bmoldy/.local/share/omarchy/bin/:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+
+19:57:00.266 [debug] handled notification client -> server initialized in 12388ms
+
+19:57:01.432 [debug] sent notification server -> client window/logMessage
+
+19:57:01.432 [info] Connected to node nextls-runtime-1764381420264091350@bmoldy
+
+19:57:03.914 [debug] sent notification server -> client $/progress
+
+19:57:03.919 [debug] sent notification server -> client window/logMessage
+
+19:57:03.919 [debug] Runtime for folder advent is ready...
+
+19:57:03.928 id=67 [debug] sent request server -> client window/workDoneProgress/create
+
+19:57:03.930 [debug] sent notification server -> client $/progress
+
+19:57:04.116 [debug] sent notification server -> client window/logMessage
+
+19:57:04.116 [info] Compiling 1 file (.ex)
+
+
+19:57:04.131 id=914 [debug] sent request server -> client window/workDoneProgress/create
+
+19:57:04.135 [debug] sent notification server -> client $/progress
+
+19:57:04.317 [debug] sent notification server -> client window/logMessage
+
+19:57:04.317 [info] Generated advent app
+
+
+19:57:04.327 [debug] sent notification server -> client $/progress
+
+19:57:04.327 [debug] sent notification server -> client window/logMessage
+
+19:57:04.327 [info] Compiled advent!
+
+19:57:04.369 [debug] sent notification server -> client $/progress
+
+19:57:59.063 id=2 [debug] handled request client -> server shutdown in 3ms
+
+19:57:59.158 [debug] sent notification server -> client window/logMessage
+
+19:57:59.159 [info] The runtime for advent has successfully shut down.
+
+19:57:59.171 [error] Writer crashed (:epipe)
